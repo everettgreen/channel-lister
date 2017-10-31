@@ -1,0 +1,20 @@
+{
+  "name": "eg/channel-lister",
+  "description": "Enables listing Magento 2 products on multiple channels, catalog syndication.",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": "Refer to Terms and Conditions on readme",
+  "keywords": ["multi-channel", "syndication"],
+  "homepage": "http://www.everettgreen.net/",
+  "require": {
+    "php": "~7.1.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Eg\\ChannelLister\\": ""
+    }
+  }
+}
